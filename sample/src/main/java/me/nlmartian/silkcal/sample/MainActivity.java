@@ -1,38 +1,37 @@
 package me.nlmartian.silkcal.sample;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
 
+import me.nlmartian.sample.DatePickerController;
+import me.nlmartian.sample.DayPickerView;
+import me.nlmartian.sample.SimpleMonthAdapter;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity implements DatePickerController {
+
+    private DayPickerView calendarView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        calendarView = (DayPickerView) findViewById(R.id.calendar_view);
+        calendarView.setController(this);
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+    public int getMaxYear() {
+        return 0;
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+    public void onDayOfMonthSelected(int year, int month, int day) {
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+    }
 
-        return super.onOptionsItemSelected(item);
+    @Override
+    public void onDateRangeSelected(SimpleMonthAdapter.SelectedDays<SimpleMonthAdapter.CalendarDay> selectedDays) {
+
     }
 }
