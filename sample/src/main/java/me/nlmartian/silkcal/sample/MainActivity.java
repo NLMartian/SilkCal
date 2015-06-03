@@ -3,9 +3,9 @@ package me.nlmartian.silkcal.sample;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import me.nlmartian.sample.DatePickerController;
-import me.nlmartian.sample.DayPickerView;
-import me.nlmartian.sample.SimpleMonthAdapter;
+import me.nlmartian.silkcal.DatePickerController;
+import me.nlmartian.silkcal.DayPickerView;
+import me.nlmartian.silkcal.SimpleMonthAdapter;
 
 public class MainActivity extends AppCompatActivity implements DatePickerController {
 

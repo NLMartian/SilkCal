@@ -1,4 +1,4 @@
-package me.nlmartian.sample;
+package me.nlmartian.silkcal;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,8 +13,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
-
-import me.nlmartian.silkcal.R;
 
 public class SimpleMonthAdapter extends RecyclerView.Adapter<SimpleMonthAdapter.ViewHolder> implements SimpleMonthView.OnDayClickListener {
     protected static final int MONTHS_IN_YEAR = 12;

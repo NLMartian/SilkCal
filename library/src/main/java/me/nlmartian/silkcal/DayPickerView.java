@@ -1,4 +1,4 @@
-package me.nlmartian.sample;
+package me.nlmartian.silkcal;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,8 +9,6 @@ import android.view.View;
 
 import java.util.Calendar;
 import java.util.HashMap;
-
-import me.nlmartian.silkcal.R;
 
 public class DayPickerView extends RecyclerView
 {

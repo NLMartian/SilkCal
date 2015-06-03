@@ -1,4 +1,4 @@
-package me.nlmartian.sample;
+package me.nlmartian.silkcal;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -21,8 +21,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
-
-import me.nlmartian.silkcal.R;
 
 class SimpleMonthView extends View
 {

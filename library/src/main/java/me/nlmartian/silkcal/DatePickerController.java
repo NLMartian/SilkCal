@@ -1,4 +1,4 @@
-package me.nlmartian.sample;
+package me.nlmartian.silkcal;
 
 public interface DatePickerController {
 	public abstract int getMaxYear();

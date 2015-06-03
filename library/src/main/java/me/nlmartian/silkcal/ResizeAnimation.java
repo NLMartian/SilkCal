@@ -1,4 +1,4 @@
-package me.nlmartian.sample;
+package me.nlmartian.silkcal;
 
 import android.view.View;
 import android.view.animation.Animation;
