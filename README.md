@@ -1,6 +1,7 @@
 # SilkCal
 Android calendar view inspired by Sunrise calendar and iOS7 stock calendar.
-<img src="https://github.com/NLMartian/SilkCal/raw/master/images/screenshot.gif" width="320">
+
+<img src="https://github.com/NLMartian/SilkCal/raw/master/images/screenshot.gif" width="360">
 
 Usage
 -----
