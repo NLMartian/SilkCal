@@ -31,14 +31,14 @@ ext {
 
     publishedGroupId = 'me.nlmartian.silkcal'
     libraryName = 'SilkCal'
-    artifact = 'silkcal'
+    artifact = 'library'
 
     libraryDescription = 'Android calendar view inspired by Sunrise calendar and iOS7 stock calendar'
 
     siteUrl = 'https://github.com/NLMartian/SilkCal'
     gitUrl = 'https://github.com/NLMartian/SilkCal.git'
 
-    libraryVersion = '0.1.0'
+    libraryVersion = '0.1.1'
 
     developerId = 'nlmartian'
     developerName = 'Martin Zhu'

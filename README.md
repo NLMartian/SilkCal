@@ -6,7 +6,7 @@ Android calendar view inspired by Sunrise calendar and iOS7 stock calendar.
 Usage
 -----
 
-1. Add `compile 'me.nlmartian.silkcal:silkcal:0.1.0'` to your dependencies.
+1. Add `compile 'me.nlmartian.silkcal:library:0.1.1'` to your dependencies.
 2. Add jcenter to your repositories list like this:
 
 ```groovy
