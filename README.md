@@ -38,7 +38,7 @@ Thanks to [Robin Chutaux](https://github.com/traex) for his [CalendarListview](h
 ```
     The MIT License (MIT)
     
-    Copyright (c) 2014 Robin Chutaux
+    Copyright (c) 2014 Junguan Zhu
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
